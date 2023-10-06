@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+.logo {
+    font-size: xx-large;
+}
+
+.input {
+    font-size: x-large;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 12px;
+}
+
+.icon:hover {
+    transform: scaleX(1.1);
+}
