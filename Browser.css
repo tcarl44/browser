@@ -1,4 +1,6 @@
 body {
+    margin-top: 200px;
+    /* margin-bottom: 50px; */
     background-color: gray;
     text-align: center;
 }
@@ -11,6 +13,10 @@ body {
     font-size: x-large;
 }
 
+.text{
+    width: 500px;
+}
+
 .icon {
     display: flex;
     justify-content: center;
@@ -21,3 +27,10 @@ body {
 .icon:hover {
     transform: scaleX(1.1);
 }
+
+br{
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
